@@ -1,0 +1,10 @@
+* helm-org-clock
+An adjustment of the org-clock-select-task function that allows helm to be used to select recent tasks with its incremental parsing, rather than the choose-the-key method built in to Orgmode. 
+
+** To Use
+Simply place helm-org-clock.el into your load path or otherwise specify its location, e.g.:
+#+BEGIN_SRC elisp
+(load-file "~/.emacs.d/lisp/helm-org-clock.el")
+#+END_SRC
+
+I personally have a hydra for my most common orgmode tasks, So I activate this command with =C-o w=, choosing tasks that I've used recently. 
