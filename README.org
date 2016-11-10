@@ -7,4 +7,4 @@ Simply place helm-org-clock.el into your load path or otherwise specify its loca
 (load-file "~/.emacs.d/lisp/helm-org-clock.el")
 #+END_SRC
 
-I personally have a hydra for my most common orgmode tasks, So I activate this command with =C-o w=, choosing tasks that I've used recently. 
+I personally have a hydra for my most common orgmode tasks, So I activate this command with =C-o w=, choosing tasks that I've used recently. Otherwise use =C-u M-x org-clock-in= (that is, =org-clock-in= with a default numeric argument). 
